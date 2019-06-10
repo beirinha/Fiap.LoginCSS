@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fiap.LoginCSS.App">
+    <Application.Resources>
+
+        <!-- Content Page Styles -->
+        <Style x:Key="ContentPageDefault" TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="#a96538" />
+        </Style>
+
+        <!-- Frame Styles -->
+        <Style TargetType="Frame">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="OutlineColor" Value="Transparent"/>
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="HasShadow" Value="False"/>
+            <Setter Property="HeightRequest" Value="300"/>
+            <Setter Property="WidthRequest" Value="300"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="VerticalOptions" Value="Center"/>            
+        </Style>
+
+        <!-- Content Page Styles -->
+        <Style x:Key="StackDefault" TargetType="StackLayout">
+            <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+
+        <!-- Entry Styles -->
+        <Style x:Key="EntryDefault" TargetType="Entry">
+            <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+            <Setter Property="HeightRequest" Value="40" />           
+        </Style>
+
+        <!-- Button Styles -->
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#a96538"/>
+            <Setter Property="BorderColor" Value="#a96538" />
+            <Setter Property="TextColor" Value="White"/> 
+            <Setter Property="BorderRadius" Value="4" />
+            <Setter Property="BorderWidth" Value="4"/>
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+
+        <Style x:Key="ButtonSecondary" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="BorderColor" Value="#a96538" />
+            <Setter Property="TextColor" Value="#a96538"/>   
+            <Setter Property="BorderRadius" Value="4" />
+            <Setter Property="BorderWidth" Value="4"/>
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="Padding" Value="0,20,0,0"/>
+        </Style>
+    </Application.Resources>
+</Application>
