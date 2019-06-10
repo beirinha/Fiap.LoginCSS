@@ -41,16 +41,16 @@
             <Setter Property="BorderRadius" Value="4" />
             <Setter Property="BorderWidth" Value="4"/>
             <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="Margin" Value="0,0,0,27"/>
         </Style>
 
         <Style x:Key="ButtonSecondary" TargetType="Button">
             <Setter Property="BackgroundColor" Value="White"/>
             <Setter Property="BorderColor" Value="#a96538" />
-            <Setter Property="TextColor" Value="#a96538"/>   
+            <Setter Property="TextColor" Value="#a96538"/>            
             <Setter Property="BorderRadius" Value="4" />
             <Setter Property="BorderWidth" Value="4"/>
-            <Setter Property="VerticalOptions" Value="Center" />
-            <Setter Property="Padding" Value="0,20,0,0"/>
+            <Setter Property="VerticalOptions" Value="Center" />            
         </Style>
     </Application.Resources>
 </Application>
